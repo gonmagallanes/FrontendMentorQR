@@ -41,7 +41,6 @@ body .QRFrame .QR {
 @media screen and (max-width: 900px) {
   body .QRFrame {
     width: 90vw;
-    height: 70vh;
     padding-top: 10px;
   }
   body .QRFrame .QR {
