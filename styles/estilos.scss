@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Rethink;
+    src: url(./static/RethinkSans-Italic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #d3e3eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    
+    .QRFrame {
+        
+        background-color: white;
+        width: 22vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+
+
+
+        .h3Text{
+            color:  #2c374c ;
+            font-family: Rethink;
+            padding-top: 10px;
+        }
+
+        .h5Text{
+            font-family: Rethink;
+            font-weight:200;
+        }
+        .QR{
+            width: 20vw;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        .QRFrame{
+            width: 90vw;
+            height: 70vh;
+            padding-top: 10px;
+            .QR{
+                width: 85vw;
+                
+            }
+        }
+    }
+}
